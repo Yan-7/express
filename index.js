@@ -8,7 +8,7 @@ const app = express();
 // })
 
 app.get('/cats', (req, res) => {
-    res.send('MAOOOO')
+    res.send('MAOOOO = new maii')
     
 })
 app.post('/cats',(req,res) => {
@@ -28,4 +28,5 @@ app.get('/search',(req,res) => {
 app.listen(3000, () => {
     console.log('listening on 3000');
 })
+
 
